@@ -1,0 +1,11 @@
+2021-06-03 00:28:17,047 - main_file.connector - INFO - "C:\\Users\\Goranic\\PycharmProjects\\Download_youtube_vid\\Databases\\"Arts.db
+2021-06-03 00:29:00,194 - main_file.connector - INFO - C:\\Users\\Goranic\\PycharmProjects\\Download_youtube_vid\\Databases\\Arts.db
+2021-06-03 00:31:37,618 - main_file.connector - INFO - C:\\Users\\Goranic\\PycharmProjects\\Download_youtube_vid\\Databases\\Arts.db
+2021-06-03 00:31:40,687 - main_file.connector - INFO - Connected to database.
+2021-06-03 00:32:51,516 - main_file.connector - INFO - C:\\Users\\Goranic\\PycharmProjects\\Download_youtube_vid\\Databases\\Arts.db
+2021-06-03 00:32:53,097 - main_file.connector - INFO - Connected to database.
+2021-06-03 00:33:44,281 - main_file.connector - INFO - C:\\Users\\Goranic\\PycharmProjects\\Download_youtube_vid\\Databases\\Arts.db
+2021-06-03 00:33:45,919 - main_file.connector - INFO - Connected to database.
+2021-06-03 00:34:44,610 - main_file.connector - INFO - C:\\Users\\Goranic\\PycharmProjects\\Download_youtube_vid\\Databases\\Arts.db
+2021-06-03 00:34:44,610 - main_file.downloader - INFO - Try to download music from https://www.youtube.com/watch?v=teRTjJUc6vo
+2021-06-03 00:34:46,179 - main_file.connector - INFO - Connected to database.
