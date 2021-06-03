@@ -2,6 +2,8 @@ from Connectors.database_connector import DatabaseSolver
 from downloader import Downloader
 import logging
 import configparser
+import os
+import pathlib
 
 logger = logging.getLogger("main_file")
 logger.setLevel(logging.DEBUG)
@@ -21,9 +23,9 @@ logger.addHandler(ch)
 
 if __name__ == '__main__':
     cfg = configparser.ConfigParser()
-    cfg.read("C:\\Users\\Goranic\\PycharmProjects\\Download_youtube_vid\\config.cfg")
+    path = pathlib.Path(".")
+    cfg.read(path.joinpath("config.cfg"))
     url_add = str(input("Add input to download"))
-    # download_music(url_add)
     db = DatabaseSolver("Arts", cfg)
     dwndlr = Downloader(db)
     dwndlr.download_music(url_add)

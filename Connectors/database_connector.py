@@ -1,5 +1,6 @@
 import sqlite3
 import logging
+from pathlib import Path
 
 logger = logging.getLogger("main_file.connector")
 
@@ -7,8 +8,8 @@ logger = logging.getLogger("main_file.connector")
 class DatabaseSolver:
     def __init__(self, name, cfg):
         self.name = name
-        logger.info(cfg['Databases']['Path'] + name + ".db")
-        self.con: sqlite3 = sqlite3.connect(cfg['Databases']['Path'] + name + ".db")
+        logger.info(Path(cfg['Databases']['Path']).joinpath(name + ".db"))
+        self.con: sqlite3 = sqlite3.connect(Path(cfg['Databases']['Path']).joinpath(name + ".db"))
 
     def reconnect_to_db(self):
         self.con: sqlite3 = sqlite3.connect(self.name + ".db")
@@ -42,10 +43,3 @@ class DatabaseSolver:
         cur = self.con.cursor()
         print(table_col)
         cur.execute(f"CREATE TABLE {name} {table_col}")
-
-
-if __name__ == '__main__':
-    db = DatabaseSolver("Arts")
-    print(db.test_connection())
-    # db.create_table("music", ("id", "name", "author", "published_date", "length", "downloaded_date"))
-    # db.insert_movie(("1", "test", "test", "test", "test"))
