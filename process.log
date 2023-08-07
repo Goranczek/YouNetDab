@@ -1,0 +1,11 @@
+2022-07-03 21:24:16,117 - main_file.connector - INFO - Databases\Arts.db
+2022-07-03 21:24:16,121 - main_file.downloader - INFO - Try to download music from https://www.youtube.com/watch?v=0B6NLYcDcv8&list=LL&index=20
+2022-07-03 21:24:33,315 - main_file.connector - INFO - Databases\Arts.db
+2022-07-03 21:24:33,315 - main_file.downloader - INFO - Try to download music from 
+2022-07-03 21:24:58,139 - main_file.connector - INFO - Databases\Arts.db
+2022-07-03 21:24:58,140 - main_file.downloader - INFO - Try to download music from 
+2022-07-03 21:25:05,003 - main_file.connector - INFO - Databases\Arts.db
+2022-07-03 21:25:05,003 - main_file.downloader - INFO - Try to download music from https://www.youtube.com/watch?v=0B6NLYcDcv8&list=LL&index=20
+2022-08-09 01:55:23,774 - main_file.connector - INFO - Databases\Arts.db
+2022-08-09 01:55:23,778 - main_file.downloader - INFO - Try to download music from https://www.youtube.com/watch?v=xsVys0OMiYQ
+2022-08-09 01:55:25,886 - main_file.connector - INFO - Connected to database.
