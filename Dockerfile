@@ -5,7 +5,7 @@ FROM ubuntu:latest
 RUN apt-get update
 RUN apt-get install python3 -y
 
-WORKDIR C:\\Users\\Goranic\\Python-projekty/YouNetDab
+WORKDIR **PATH**
 
 COPY ./Connectors ./Connectors
 COPY ./Databases ./Databases
